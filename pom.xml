@@ -10,21 +10,21 @@
 	</parent>
 
     <artifactId>imglib2-cache-icy</artifactId>
-    <version>6.2.0</version>
+    <version>1.0.0-beta-17</version>
 
     <name>ImgLib2 Icy</name>
-    <description>ImgLib2 wrappers for Icy sequences.
+    <description>JAR wrapping ImgLib2-cache to use it in Icy
 	</description>
 	
 	<properties>
-		<artifact-to-include>imglib2</artifact-to-include>
+		<artifact-to-include>imglib2-cache</artifact-to-include>
 	</properties>
 
     <dependencies>
 		<dependency>
-			<groupId>net.imglib2</groupId>
-			<artifactId>imglib2</artifactId>
-		  <version>6.2.0</version>
+		    <groupId>net.imglib2</groupId>
+		    <artifactId>imglib2-cache</artifactId>
+		    <version>1.0.0-beta-17</version>
 		</dependency>
     </dependencies>
 
